@@ -16,3 +16,11 @@ checkpoints/
 outputs/
 runs/
 wandb/
+
+# Generated and downloaded model weights
+*.pth
+*.pt
+*.ckpt
+*.ckpt.*
+*.safetensors
+**/gpt2/
